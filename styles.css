@@ -9,15 +9,32 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 0 48px;
 }
 
 .header-links {
     display: flex;
-    font-size: 18px;
+    font-size: 8px;
     color: #e5e7eb;
+    gap: 16px;
 }
 
 h1 {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.section-one {
+    display: flex;
+    background-color: #1f2937;
+    padding: 0 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-one-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
