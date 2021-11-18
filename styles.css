@@ -36,5 +36,44 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 500px;
+    color: white;
 }
+
+#button-one {
+    max-width: 100px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 9px;
+    padding: 5px;
+    color: white;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-content {
+    display: flex;
+    gap: 16px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 128px;
+}
+
+.box {
+    width: 128px;
+    height: 128px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 16px;
+}
+
+
 
